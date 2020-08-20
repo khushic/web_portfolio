@@ -1,2 +1,2 @@
-# web_portfolio
+# Web Portfolio
 My free lance web designing portfolio.
