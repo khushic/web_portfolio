@@ -1,0 +1,43 @@
+.my-navbar {
+  background-color: #cddad8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  height: 75px;
+  opacity: 1;
+  transition: top 0.5s ease;
+}
+
+/* Style the navbar links */
+.my-navbar a {
+  display: flex;
+  color: #5B6467;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.my-navbar a:hover {
+  color: black;
+}
+
+.components{
+  display: inline-block;
+  margin-bottom: 0rem;
+  height: 100%;
+  float: right;
+  padding-right: 1rem;
+}
+
+.nav-tab{
+  height: 100%;
+  display: inline-block;
+}
+
+.navbar-hide {
+  top: -75px;
+}
