@@ -3,11 +3,87 @@
   color: #5B6467;
 }
 
+a{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #5B6467!important;
+}
+
+.logo{
+  height: 80%;
+  width: auto;
+  margin: 7px 1rem;
+}
+
+#home{
+  height: max-content;
+  background-color: white;
+}
+
+#work{
+  height: max-content;
+}
+
+#contact{
+  height: max-content;
+  background-color: #F0DBD5;
+}
+
 .about-container{
-  padding: 4rem 7rem;
+  padding: 7rem 7rem;
   margin: 3rem auto;
   background-image: url(../img/homebg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+@media screen and (max-width: 750px) {
+  .about-container{
+    padding: 7rem 5rem;
+  }
+}
+
+.work-section{
+  padding: 7rem 0rem;
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+
+.row{
+  margin: 0;
+}
+
+#web-portfolio{
+  background-color: #F0DBD5;
+}
+
+#mislead-site{
+  background-color: #BDC5B8;
+}
+
+#art-portfolio{
+  background-color: #DCE5E3;
+}
+
+#kast-site{
+  background-color: #C1CACD;
+}
+
+.work-info{
+  padding: 0rem 6rem;
+}
+
+.contact-spacing{
+  padding: 4rem 2rem;
+}
+
+.contact-form{
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.btn-blue{
+  background-color: #C1CACD;
 }
