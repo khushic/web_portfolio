@@ -1,2 +1,2 @@
 # Web Portfolio
-My free lance web designing portfolio.
+My freelance web designing portfolio.
