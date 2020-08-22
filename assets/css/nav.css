@@ -7,6 +7,7 @@
   height: 75px;
   opacity: 1;
   transition: top 0.5s ease;
+  display: inline-block;
 }
 
 /* Style the navbar links */
@@ -31,6 +32,15 @@
   height: 100%;
   float: right;
   padding-right: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .my-navbar a {
+    padding: 25px 10px;
+  }
+  .components{
+    padding-right: 0;
+  }
 }
 
 .nav-tab{
