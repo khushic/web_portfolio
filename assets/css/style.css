@@ -8,6 +8,10 @@ a{
   color: #5B6467!important;
 }
 
+p{
+  font-size: 16px;
+}
+
 .logo{
   height: 80%;
   width: auto;
@@ -72,6 +76,13 @@ a{
 
 .work-info{
   padding: 0rem 6rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .work-info{
+    margin-top: 3rem;
+  }
 }
 
 .contact-spacing{
@@ -86,4 +97,14 @@ a{
 
 .btn-blue{
   background-color: #C1CACD;
+}
+
+.flex{
+  display: flex;
+}
+
+.preview-img{
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
