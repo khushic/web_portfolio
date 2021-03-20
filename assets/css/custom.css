@@ -121,7 +121,7 @@ a:hover{
 .header{
   font-weight: 800!important;
   font-size: 40px;
-  padding-bottom: .75rem;
+  padding-bottom: 1.5rem;
 }
 
 .btn{
@@ -256,8 +256,9 @@ a:hover{
 }
 
 .block-title{
-  padding: 2rem 0rem;
+  padding: 2rem 0rem .5rem;
   font-size: 24px;
+  line-height: 2.5rem;
 }
 
 .block-para{
@@ -267,7 +268,7 @@ a:hover{
 }
 
 .block-button{
-  margin: 3rem auto;
+  margin: 3rem auto 2.5rem;
   display:block;
   width: 13rem;
   font-size: 15px;
@@ -332,9 +333,15 @@ a:hover{
   color: #1B1919!important;
 }
 
-@media (max-width: 1150px){
+@media (max-width: 1227px){
   .tab-custom{
     padding: 0rem .75rem!important;
+  }
+}
+
+@media (max-width: 1035px){
+  .tab-custom{
+    padding: 0rem .5rem!important;
   }
 }
 
@@ -352,7 +359,7 @@ a:hover{
 }
 
 .notice-wrapper{
-  padding: 2.5rem 3rem 1rem;
+  padding: 2.5rem 1rem 1rem;
   text-align: center;
   width: 100%;
 }
