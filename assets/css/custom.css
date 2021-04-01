@@ -242,6 +242,12 @@ a:hover{
   text-align: center;
 }
 
+.block-wrapper2{
+  background-color: #1B1919;
+  padding: 3rem;
+  text-align: center;
+}
+
 .block-title{
   padding: 2rem 0rem .5rem;
   font-size: 24px;
